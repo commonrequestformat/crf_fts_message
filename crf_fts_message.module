@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CRF Financial Service Tracking Message feature.
+ */
+
+include_once 'crf_fts_message.features.inc';
