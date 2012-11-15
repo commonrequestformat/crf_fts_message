@@ -98,7 +98,7 @@ function crf_fts_message_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'diff_enable_revisions_page_node_fts_message';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['diff_enable_revisions_page_node_fts_message'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -112,7 +112,7 @@ function crf_fts_message_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'diff_show_preview_changes_node_fts_message';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['diff_show_preview_changes_node_fts_message'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -187,8 +187,7 @@ function crf_fts_message_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_fts_message';
   $strongarm->value = array(
-    0 => 'moderation',
-    1 => 'revision',
+    0 => 'status',
   );
   $export['node_options_fts_message'] = $strongarm;
 
@@ -238,7 +237,7 @@ function crf_fts_message_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'workbench_access_node_type_fts_message';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['workbench_access_node_type_fts_message'] = $strongarm;
 
   $strongarm = new stdClass();

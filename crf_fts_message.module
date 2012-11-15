@@ -5,3 +5,13 @@
  */
 
 include_once 'crf_fts_message.features.inc';
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function crf_fts_message_form_fts_message_node_form_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['submit']['#value'] = t('I will forward this message as requested');
+}
+
+
