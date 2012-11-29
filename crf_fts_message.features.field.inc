@@ -55,6 +55,12 @@ function crf_fts_message_field_default_fields() {
           'type' => 'text_default',
           'weight' => 0,
         ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
       ),
       'entity_type' => 'comment',
       'field_name' => 'comment_body',
@@ -137,6 +143,12 @@ function crf_fts_message_field_default_fields() {
           ),
           'type' => 'entityreference_label',
           'weight' => 6,
+        ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -224,6 +236,12 @@ function crf_fts_message_field_default_fields() {
           'type' => 'date_default',
           'weight' => 5,
         ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
         'teaser' => array(
           'label' => 'above',
           'settings' => array(),
@@ -308,6 +326,12 @@ function crf_fts_message_field_default_fields() {
           ),
           'type' => 'link_default',
           'weight' => 7,
+        ),
+        'entityreference_view_widget' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
@@ -403,7 +427,7 @@ function crf_fts_message_field_default_fields() {
             'diff_custom_settings' => array(),
           ),
           'type' => 'taxonomy_term_reference_link',
-          'weight' => 5,
+          'weight' => '5',
         ),
         'teaser' => array(
           'label' => 'above',
@@ -496,7 +520,7 @@ function crf_fts_message_field_default_fields() {
             'link' => FALSE,
           ),
           'type' => 'entityreference_label',
-          'weight' => 6,
+          'weight' => '6',
         ),
         'teaser' => array(
           'label' => 'above',

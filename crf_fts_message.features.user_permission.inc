@@ -65,5 +65,16 @@ function crf_fts_message_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: view any unpublished fts_message content.
+  $permissions['view any unpublished fts_message content'] = array(
+    'name' => 'view any unpublished fts_message content',
+    'roles' => array(
+      0 => 'administrator',
+      1 => 'editor',
+      2 => 'manager',
+    ),
+    'module' => 'view_unpublished',
+  );
+
   return $permissions;
 }
