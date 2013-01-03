@@ -21,7 +21,7 @@ function crf_fts_message_field_group_info() {
   $field_group->parent_name = '';
   $field_group->data = array(
     'label' => 'Financial Tracking Service',
-    'weight' => '11',
+    'weight' => '6',
     'children' => array(
       0 => 'field_fts_date',
       1 => 'field_fts_contact',
