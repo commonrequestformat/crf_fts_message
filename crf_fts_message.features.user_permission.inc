@@ -26,8 +26,7 @@ function crf_fts_message_user_default_permissions() {
     'name' => 'delete any fts_message content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      1 => 'manager',
     ),
     'module' => 'node',
   );
@@ -48,8 +47,7 @@ function crf_fts_message_user_default_permissions() {
     'name' => 'edit any fts_message content',
     'roles' => array(
       0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      1 => 'manager',
     ),
     'module' => 'node',
   );
