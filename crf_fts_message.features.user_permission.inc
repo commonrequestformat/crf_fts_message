@@ -14,9 +14,9 @@ function crf_fts_message_user_default_permissions() {
   $permissions['create fts_message content'] = array(
     'name' => 'create fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -25,8 +25,8 @@ function crf_fts_message_user_default_permissions() {
   $permissions['delete any fts_message content'] = array(
     'name' => 'delete any fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -35,9 +35,9 @@ function crf_fts_message_user_default_permissions() {
   $permissions['delete own fts_message content'] = array(
     'name' => 'delete own fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -46,8 +46,8 @@ function crf_fts_message_user_default_permissions() {
   $permissions['edit any fts_message content'] = array(
     'name' => 'edit any fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'manager',
+      'administrator' => 'administrator',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -56,9 +56,9 @@ function crf_fts_message_user_default_permissions() {
   $permissions['edit own fts_message content'] = array(
     'name' => 'edit own fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'node',
   );
@@ -67,9 +67,9 @@ function crf_fts_message_user_default_permissions() {
   $permissions['view any unpublished fts_message content'] = array(
     'name' => 'view any unpublished fts_message content',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'view_unpublished',
   );
