@@ -23,8 +23,8 @@ function crf_fts_message_field_group_info() {
     'label' => 'Financial Tracking Service',
     'weight' => '6',
     'children' => array(
-      0 => 'field_fts_date',
-      1 => 'field_fts_contact',
+      0 => 'field_fts_contact',
+      1 => 'field_fts_date',
       2 => 'field_fts_url',
     ),
     'format_type' => 'fieldset',
