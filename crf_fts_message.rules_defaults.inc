@@ -34,7 +34,7 @@ function crf_fts_message_default_rules_configuration() {
               { "mail" : {
                   "to" : [ "current-contact:mail" ],
                   "subject" : "FTS message provided by [node:author:field-first-name] [node:author:field-last-name] for [node:field-cluster:name-field] in [node:field-crf-request:title]",
-                  "message" : "Dear [current-contact:field-first-name] [current-contact:field-last-name],\\r\\n\\r\\nKindly note that [node:author:field-first-name] [node:author:field-last-name] has submitted an FTS message for [node:field-cluster:name-field] in the Information [node:field-crf-request:title] to the CRF website.\\r\\n\\r\\nKind regards.",
+                  "message" : "Dear [current-contact:field-first-name] [current-contact:field-last-name],\\r\\n\\r\\nKindly note that [node:author:field-first-name] [node:author:field-last-name] has submitted an FTS message for [node:field-cluster:name-field] in the Information [node:field-crf-request:title] to the CRF website.\\r\\n\\r\\n[node:log]\\r\\n\\r\\nKind regards.",
                   "from" : [ "node:author:mail" ],
                   "language" : [ "" ]
                 }
