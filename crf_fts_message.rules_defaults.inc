@@ -12,6 +12,7 @@ function crf_fts_message_default_rules_configuration() {
   $items['rules_email_ocha_focal_point_on_fts_message_submission'] = entity_import('rules_config', '{ "rules_email_ocha_focal_point_on_fts_message_submission" : {
       "LABEL" : "Email OCHA focal point on FTS Message submission",
       "PLUGIN" : "reaction rule",
+      "ACTIVE" : false,
       "REQUIRES" : [ "rules" ],
       "ON" : [ "node_insert", "node_update" ],
       "IF" : [
